@@ -1,0 +1,442 @@
+
+
+/* firstRow Specifications starts */
+#headsection{
+    width: 100%; 
+    height: 700px; 
+    background-repeat: no-repeat;
+}
+
+#firstRow{
+    padding: 5% 7% 2%;
+}
+
+.firstrow-p{
+    font-weight:bold; 
+    color: white; 
+    font-size: 1rem;
+}
+
+.firstRow-icons{
+    color:yellow;
+    font-size: 1.2rem;
+}
+
+/* .col-leftt{
+    padding-right: 0% !important;
+}
+
+.col-rightt{
+    padding-left: 0% !important;
+} */
+
+/* firstRow Specifications ends */
+
+
+/* Navbar Specifications starts */
+
+#navbaar{
+    z-index: 100;
+    padding: 0% 7% !important;
+}
+
+.navbar{
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+
+.cf-navbar{
+    padding: 0% 5%;
+}
+
+.navbar-nav > li{
+    padding-left:20px !important;
+    padding-right:20px !important;
+    font-weight: bold;
+}
+
+.navbar-nav > li:hover{
+    transform: scale(1.2);
+}
+
+.navbar-nav > li > a:hover{
+    color: tomato !important;
+}
+
+
+/* Navbar Specifications ends */
+
+/* Carousel Specifications */
+
+/* #carousel-banners{
+    padding-top: 2%;
+} */
+
+.w-100 {
+    width: 100% !important;
+    height: 100vh;
+  }
+
+.carouselh1{
+    font-size: 3rem;
+    color: white;
+    padding: 10% 30% 0%;
+    text-align: center;
+    text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
+    /* font-family: 'ubuntu', sans-serif; */
+    font-weight: bold;
+}
+
+.carouselh2{
+    font-size: 3rem;
+    color: white;
+    padding: 10% 30% 0%;
+    text-align: center;
+    text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
+    /* font-family: 'ubuntu', sans-serif; */
+    font-weight: bold;
+}
+
+.carousel-p{
+    font-size: 2rem;
+    color: yellow;
+    padding: 0% 25% 5%;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+/* About Us Section */
+
+/* #aboutUs{
+    text-align: center;
+    margin: 5% 7% 2%;
+} */
+
+.aboutus-h1{
+    text-align: center; 
+    font-weight: bold; 
+    padding-top: 2%;
+    color:black; 
+    text-shadow: 0 0 5px goldenrod;
+}
+
+.aboutus-p{
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 2% 7%;
+    text-align: justify;
+    color: #222;
+}
+
+.aboutus-h{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2% 7%;
+    text-align: justify;
+}
+
+.aboutus-cf{
+    margin: 3% 7%;
+}
+
+.team-cf{
+    background-color: #eee;
+    padding:2% 0%;
+}
+
+.team-row{
+    margin:0% 7%
+}
+
+/* Why Choose Us */
+
+#wcu{
+    background-color: #222;
+    padding-bottom: 2%;
+}
+
+.wcu-cf{
+    margin: 0% 7% 3%;
+}
+
+.wcuhead{
+    color: white;
+    text-align: center;
+    padding: 3% 0% 0%;
+    text-shadow: 1px 5px black;
+}
+
+.wcu-divs{
+    padding: 2%;
+    border-radius: 25px;    
+}
+
+.wcu-divs:hover{
+    transform: scale(1.01);
+}
+
+.wcu-innerdiv{
+    padding: 5%; 
+    background-color: goldenrod; 
+    border-radius: 25px; 
+    box-shadow: 2px 2px yellow;
+}
+
+.wcu-types{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.wcu-p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
+}
+
+.wcu-icons{
+    font-size: 3rem; 
+    color:white ; 
+    text-shadow: 0px 2px #222;
+}
+
+/* Services */
+
+#services{
+    text-align: center;
+    background-image: linear-gradient(45deg, #f5fabe 25%, #ffffff 25%, #ffffff 50%, #f5fabe 50%, #f5fabe 75%, #ffffff 75%, #ffffff 100%);
+background-size: 141.42px 141.42px;
+}
+
+.servicesHead{
+    color: white;
+    text-align: center;
+    padding: 1% 0%;
+    text-shadow: 1px 2px rgb(43, 43, 38);
+}
+
+.cf-services{
+    padding: 2% 7% 3%;
+}
+
+/* Areas of expertise */
+
+.aoe-head{
+    color: black;
+    text-align: center;
+    padding: 3% 0% 0%;
+    text-shadow: 1px 5px yellow;
+    font-weight: bold;
+}
+
+.list-group{
+    font-weight: bold !important;
+}
+
+/* careers */
+
+#careers{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.career-cf{
+    padding: 5% 7%;
+}
+
+.career-h{
+    color: black;
+    text-align: center;
+    padding: 3% 0% 0%;
+    text-shadow: 1px 5px yellow;
+    font-weight: bold;
+}
+
+.career-h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+/* contact us */
+
+#contactUs{
+    padding: 5% 7%;
+    background-color: #ff9b00;
+}
+
+.contact{
+    background-color: #ff9b00;
+    
+}
+.col-left{
+    background:teal;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+    padding: 2%;
+}
+
+.contact-form{
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-right{
+    background: #fff;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.submitbtn{
+    margin: 2% 0%;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #222;
+    padding: 3% 0% 0%;
+}
+
+.footer-cf{
+    margin: 2% 7%;
+}
+
+.footer-logo{
+    padding: 3% 0%;
+    
+}
+
+.footer-p{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.col2{
+    text-align: left;
+    padding-left: 10%;
+}
+
+.footer-links{
+    color: goldenrod;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;   
+}
+
+.usefullinks{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.usefullinks:hover{
+    color: gold;
+}
+
+/* back to top */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+/* fadein effect */
+
+.to-fade-in {
+    opacity: 0;
+}
+.to-fade-in.fade-in {
+    animation: fade-in 2s forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+
+.animate__animated {
+    --animate-duration: 3s;
+  }
+
+.animate__animated.animate__bounceIn {
+    --animate-duration: 5s;
+  }
+
+
+  /* Media queries */
+
+  @media screen and (max-width: 600px) and (min-width:250px)  {
+
+    #headsection{
+        width: 100%; 
+        height: 100px; 
+        background-repeat: no-repeat;
+    }
+
+    #firstRow{
+        padding: 5% 2% 2%;
+    }
+
+    .wcu-innerdiv{
+         
+        background-color: goldenrod; 
+        border-radius: 15px; 
+        box-shadow: 2px 2px yellow;
+        margin-top: 10%;
+    }
+
+    .carouselh1{
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+        text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
+        font-weight: bold;
+    }
+
+    .carouselh2{
+        font-size: 1.5rem;
+        color: white;
+        
+        text-align: center;
+        text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
+        /* font-family: 'ubuntu', sans-serif; */
+        font-weight: bold;
+    }
+    
+    .carousel-p{
+        font-size: 1.2rem;
+        color: yellow;
+        font-weight: bold;
+        text-shadow: 0 0 10px black;
+        text-align: center;
+    }
+
+  }
