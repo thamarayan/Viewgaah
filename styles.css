@@ -22,14 +22,6 @@
     font-size: 1.2rem;
 }
 
-/* .col-leftt{
-    padding-right: 0% !important;
-}
-
-.col-rightt{
-    padding-left: 0% !important;
-} */
-
 /* firstRow Specifications ends */
 
 
@@ -46,7 +38,7 @@
 }
 
 .cf-navbar{
-    padding: 0% 5%;
+    padding: 0% 0%;
 }
 
 .navbar-nav > li{
@@ -68,9 +60,9 @@
 
 /* Carousel Specifications */
 
-/* #carousel-banners{
-    padding-top: 2%;
-} */
+.carouselsection{
+    height: 500px;
+}
 
 .w-100 {
     width: 100% !important;
@@ -80,7 +72,7 @@
 .carouselh1{
     font-size: 3rem;
     color: white;
-    padding: 10% 30% 0%;
+    padding: 10% 0% 0%;
     text-align: center;
     text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
     /* font-family: 'ubuntu', sans-serif; */
@@ -90,7 +82,7 @@
 .carouselh2{
     font-size: 3rem;
     color: white;
-    padding: 10% 30% 0%;
+    padding: 10% 0% 0%;
     text-align: center;
     text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
     /* font-family: 'ubuntu', sans-serif; */
@@ -107,11 +99,6 @@
 }
 
 /* About Us Section */
-
-/* #aboutUs{
-    text-align: center;
-    margin: 5% 7% 2%;
-} */
 
 .aboutus-h1{
     text-align: center; 
@@ -138,6 +125,20 @@
 
 .aboutus-cf{
     margin: 3% 7%;
+}
+
+.aboutUsImg{
+    width: 100%; 
+    height: 300px;
+}
+
+.teamimg{
+    width: 75%;
+    margin-left: 75px;
+}
+
+.ourTeam{
+    width: 100%;
 }
 
 .team-cf{
@@ -210,6 +211,11 @@
 background-size: 141.42px 141.42px;
 }
 
+.servicesimg{
+    width: 90%; 
+    padding-top: 10%;
+}
+
 .servicesHead{
     color: white;
     text-align: center;
@@ -233,6 +239,16 @@ background-size: 141.42px 141.42px;
 
 .list-group{
     font-weight: bold !important;
+}
+
+/* projects */
+
+#projects{
+    background-color: #F1ECC3;
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* careers */
@@ -270,6 +286,13 @@ background-size: 141.42px 141.42px;
     background-color: #ff9b00;
     
 }
+
+.form-head{
+    font-family: 'Bebas Neue' cursive;
+    font-size: 3rem; 
+    color: teal;
+}
+
 .col-left{
     background:teal;
     border-top-left-radius: 0.5rem;
@@ -355,6 +378,14 @@ background-size: 141.42px 141.42px;
     color: gold;
 }
 
+.footer-p2{
+    color:lightgoldenrodyellow; 
+    margin: 0%; 
+    text-align: center; 
+    padding: 1%; 
+    font-weight: bold;
+}
+
 /* back to top */
 
 #btn-back-to-top {
@@ -395,14 +426,9 @@ background-size: 141.42px 141.42px;
 
   @media screen and (max-width: 600px) and (min-width:250px)  {
 
-    #headsection{
-        width: 100%; 
-        height: 100px; 
-        background-repeat: no-repeat;
-    }
 
     #firstRow{
-        padding: 5% 2% 2%;
+        padding:5% 5% 2%;
     }
 
     .wcu-innerdiv{
@@ -413,18 +439,23 @@ background-size: 141.42px 141.42px;
         margin-top: 10%;
     }
 
+    .carouselsection{
+        height: 250px;
+    }
+
     .carouselh1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: white;
         text-align: center;
         text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
         font-weight: bold;
+        padding: 18% 0% 0%;
     }
 
     .carouselh2{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: white;
-        
+        padding: 18% 0% 0%;
         text-align: center;
         text-shadow: 0 0 10px #FF0000, 0 0 5px yellow;
         /* font-family: 'ubuntu', sans-serif; */
@@ -432,11 +463,117 @@ background-size: 141.42px 141.42px;
     }
     
     .carousel-p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: yellow;
         font-weight: bold;
         text-shadow: 0 0 10px black;
         text-align: center;
+        padding-top: 10px;
+    }
+
+    .firstrow-p{
+        font-weight:bold; 
+        color: white; 
+        font-size: 10px;
+    }
+
+    .logo{
+        width: 125px;
+        padding: 10px;
+    }
+
+    .firstRow-icons{
+        font-size: 10px;
+    }
+
+    .teamimg{
+        width: 60%;
+        padding:5px;
+    }
+
+    .aboutus-p{
+        font-size: 1rem;
+    }
+
+    .aboutus-h{
+        padding-top: 15px;
+    }
+
+    .ourTeamDiv{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .ourTeam{
+        width: 50%;
+    }
+
+    .aboutUsImg{
+        width: 100%; 
+        height: auto;
+    }
+
+    .wcu-divs{
+        padding-top: 5px;
+    }
+
+    .wcuhead{
+        padding-top: 20px;
+    }
+
+    .servicesimg{
+        padding-top: 0px;
+        
+    }
+
+    .team-row{
+        padding: 0px;
+    }
+
+    .career-h1{
+        font-size: 2rem;
+    }
+
+    .career-h3{
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    .form-head{
+        font-family: 'Bebas Neue',cursive;
+        font-size: 2rem; 
+        color: teal;
+    }
+
+    .contact-form {
+        padding: 2%;
+        margin-top: 5%;
+    }
+
+    .contact-info h2{
+        margin-bottom: 0%;
+    }
+
+    .contact-info{
+        margin-top: 2%;
+    }
+
+    .col2 {
+    text-align: left;
+    padding-left: 3%;
+    }
+
+    .footer-links{
+        padding-top: 20px;
+    }
+
+    .footer-p2{
+        color:lightgoldenrodyellow; 
+        margin: 0%; 
+        text-align: center; 
+        padding: 1%; 
+        font-weight: bold;
+        font-size: 10px;
     }
 
   }
